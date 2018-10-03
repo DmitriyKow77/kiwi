@@ -1,0 +1,5 @@
+selenium==3.11.0
+pyperclip==1.5.27
+webdriver-manager==1.5.1
+python-dateutil==2.7.3
+git+https://github.com/behave/behave@master
