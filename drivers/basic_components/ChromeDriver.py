@@ -17,9 +17,9 @@ class ChromeDriver(WebDriver):
     def __init__(self):
         options = Options()
         options.add_argument("--disable-setuid-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--disable-infobars")
-        super(ChromeDriver, self).__init__(executable_path=linux_chromedriver_path, chrome_options=options)
+#       options.add_argument("--disable-dev-shm-usage")
+#       options.add_argument("--disable-infobars")
+        super(ChromeDriver, self).__init__(executable_path=mac_chromedriver_path, chrome_options=options)
 
         self.implicitly_wait(2)
         self.set_window_size(1920, 1080)
