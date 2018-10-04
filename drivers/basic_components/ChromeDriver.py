@@ -9,8 +9,8 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-mac_chromedriver_path = "resourses/chromedriver_mac"
-linux_chromedriver_path = "resourses/chromedriver_linux"
+mac_chromedriver_path = "./resourses/chromedriver_mac"
+linux_chromedriver_path = "./resourses/chromedriver_linux"
 
 
 class ChromeDriver(WebDriver):
